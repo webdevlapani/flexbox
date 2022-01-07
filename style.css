@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  background-color: #125288;
+  flex-wrap: wrap;
+}
+
+.header-items {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  flex: 0 2 auto;
+}
+
+.header-item5 {
+  background-color: yellow;
+  color: black;
+}
+
+.header1 {
+  flex: 8 4 300px;
+  text-align: left;
+}
+
+.aboutus {
+  display: flex;
+  flex-flow: column wrap;
+  background: #ecb365;
+  padding: 20px;
+  text-align: center;
+  row-gap: 20px;
+}
